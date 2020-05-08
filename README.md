@@ -11,6 +11,7 @@ docker run -d --name shadowsocks-libev \
   -e SERVER_PORT={SERVER PORT} \
   -e PASSWORD={YOUR PASSWORD} \
   -e METHOD=aes-256-gcm \
+  -e DNS_ADDRS={DNS SERVER IPs} \
   -e LISTEN_ADDR=127.0.0.1 \
   -e LISTEN_PORT=1080 \
   -e TIMEOUT=300 \
